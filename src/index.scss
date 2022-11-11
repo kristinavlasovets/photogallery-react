@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  margin: 40px;
+  width: 600px;
+
+  h1 {
+    margin-left: 20px;
+  }
+  .tags {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0px;
+    li {
+      margin: 0 auto;
+      padding: 10px 20px 10px;
+      border-radius: 20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
+
+.search-input {
+  margin-left: 20px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.collection {
+  margin: 20px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  width: fit-content;
+  height: 660px;
+
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  img {
+    border-radius: 20px;
+  }
+  &_bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  &_big {
+    height: 620px;
+  }
+  &_mini {
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  h4 {
+    position: absolute;
+    top: 660px;
+    left: 40px;
+  }
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  li {
+    padding: 10px;
+  }
+}

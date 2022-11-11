@@ -1,0 +1,42 @@
+[
+  {
+    "category": 2,
+    "name": "fashion",
+    "photos": [
+      "https://i.pinimg.com/564x/da/70/60/da706030b8d74b7543ceb9b6dce5ed42.jpg",
+      "https://i.pinimg.com/564x/78/c3/86/78c38600a2105c02b2a1cac481bc4df3.jpg",
+      "https://i.pinimg.com/564x/9a/6c/31/9a6c31945a32c97c80e8a073ec26d370.jpg",
+      "https://i.pinimg.com/564x/09/42/c7/0942c7dbc972039cc89db9a6498e2a93.jpg"
+    ]
+  },
+  {
+    "category": 1,
+    "name": "lifestyle",
+    "photos": [
+      "https://i.pinimg.com/736x/2b/e9/3e/2be93e04427d1efa54b2557dc385760a.jpg",
+      "https://i.pinimg.com/564x/d8/09/96/d80996b50795e7d05419aa1db702d5f0.jpg",
+      "https://i.pinimg.com/564x/d3/e6/9d/d3e69db781880c10d0362eb8230bcb95.jpg",
+      "https://i.pinimg.com/564x/09/58/f9/0958f9e48559691ffe2f267902d96902.jpg"
+    ]
+  },
+  {
+    "category": 3,
+    "name": "IT",
+    "photos": [
+        "https://i.pinimg.com/564x/9b/be/2b/9bbe2b233b6ed7853069a88eea8cbaa3.jpg",
+        "https://i.pinimg.com/564x/71/24/62/7124628d655696e18639c1367704ba02.jpg",
+        "https://i.pinimg.com/564x/fe/cb/3c/fecb3cdf349078440bc11ad27cfe532d.jpg",
+        "https://i.pinimg.com/564x/f9/fd/32/f9fd32dc0c4f6b443783bc828a618e08.jpg"
+    ]
+  },
+  {
+    "category": 4,
+    "name": "travelling",
+    "photos": [
+      "https://i.pinimg.com/736x/df/de/85/dfde855c9807143e53db8c0558e8b1eb.jpg",
+      "https://i.pinimg.com/564x/e9/8d/2a/e98d2adb7d5f2786bfe58818ad7d6119.jpg",
+      "https://i.pinimg.com/564x/c6/8f/a2/c68fa229c112e694e1351454df39fa41.jpg",
+      "https://i.pinimg.com/564x/0c/e1/38/0ce1381c5b4bc78055e3a670fb9bdee5.jpg"
+    ]
+  }
+]
