@@ -3,15 +3,15 @@ import { Collection } from "./components/Collection";
 import { getData } from "./services/WebService";
 
 export const App = () => {
-
   const [collections, setCollections] = useState([]);
+  const [searchValue, setSearchValue] = useState("");
+  const [categoryId, setCategoryId] = useState(0);
 
   useEffect(() => {
-    const getCollections = async() => {
-      const data = await getData(
-        "/db.json")
-      console.log(data)
-    }
+    const getCollections = async () => {
+      const data = await getData("/db.json");
+      setCollections(data);
+    };
     getCollections();
   }, []);
 
@@ -26,7 +26,7 @@ export const App = () => {
           <li>career</li>
           <li>see the world</li>
         </ul>
-        <input className="search-input" />
+        <input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} className="search-input" placeholder="search"/>
       </div>
       <div className="content">
         <Collection
